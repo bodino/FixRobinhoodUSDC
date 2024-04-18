@@ -1,12 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Svelte demo app" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    %sveltekit.head%
-  </head>
-  <body>
-    <div>%sveltekit.body%</div>
-  </body>
+    <link
+        rel="icon"
+        type="image/png"
+        href="https://fixrobinhood.today/frontpage.png"
+    />
+
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="FixRobinhoodUSDC – A Call For Action To Robinhood."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>FixRobinhoodUSDC</title>
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="FixRobinhoodUSDC" />
+        <meta
+            name="twitter:description"
+            content="A Call For Action To Robinhood To Return Users Funds"
+        />
+        <meta name="twitter:image" content="https://example.com/image.jpg" />
+
+        <!-- Discord Meta Tags (Uses Open Graph) -->
+        <meta property="og:title" content="FixRobinhoodUSDC" />
+        <meta
+            property="og:description"
+            content="A Call For Action To Robinhood To Return Users Funds"
+        />
+        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta
+            property="og:url"
+            content="https://fixrobinhood.today/frontpage.png"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="FixRobinhoodUSDC" />
+
+        <!-- Reddit Meta Tags (Uses Open Graph) -->
+        <!-- (same as Discord, since Reddit also uses Open Graph tags) -->
+        <!-- No additional tags needed -->
+
+        %sveltekit.head%
+    </head>
+    <body>
+        <div>%sveltekit.body%</div>
+    </body>
 </html>

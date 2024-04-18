@@ -105,8 +105,8 @@
 
 <div class="github-link">
     <a
-        href="https://github.com/yourusername/your-repo-name"
-        target="_blank"
+        href="https://github.com/bodino/FixRobinhoodUSDC"
+        target="https://github.com/bodino/FixRobinhoodUSDC"
         class="button">View on GitHub</a
     >
 </div>
